@@ -1,0 +1,9 @@
+*.DS_Store
+*.LSOverride
+Thumbs.db
+.bundle
+.envrc
+.env
+.ruby-gemset
+.vscode
+yarn-error.log
