@@ -57,7 +57,7 @@ fi
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 
 # Disable smart dashes as they’re annoying when typing code
-defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+# defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
 # Set background to dark-grey color
 # osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/System/Library/Desktop Pictures/Solid Colors/Stone.png"'
@@ -67,14 +67,14 @@ defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 ###############################################################################
 
 # Trackpad: Haptic feedback (light, silent clicking)
-defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
-defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 0
+# defaults write com.apple.AppleMultitouchTrackpad FirstClickThreshold -int 0
+# defaults write com.apple.AppleMultitouchTrackpad ActuationStrength -int 0
 
 # Trackpad: map bottom right corner to right-click (requires restart!)
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
-defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
-defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 2
-defaults write NSGlobalDomain ContextMenuGesture -int 1
+# defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+# defaults write com.apple.AppleMultitouchTrackpad TrackpadRightClick -bool true
+# defaults write com.apple.AppleMultitouchTrackpad TrackpadCornerSecondaryClick -int 2
+# defaults write NSGlobalDomain ContextMenuGesture -int 1
 
 # Disable press-and-hold for keys in favor of key repeat
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
@@ -166,7 +166,7 @@ chflags nohidden ~/Library
 ###############################################################################
 
 # Set the icon size of Dock items
-defaults write com.apple.dock tilesize -int 30
+# defaults write com.apple.dock tilesize -int 30
 
 # Speed up Mission Control animations
 defaults write com.apple.dock expose-animation-duration -float 0.15
@@ -190,14 +190,14 @@ defaults write com.apple.universalaccess reduceTransparency -bool true
 # 11: Launchpad
 # 12: Notification Center
 # Bottom right screen corner → Mission Control
-defaults write com.apple.dock wvous-br-corner -int 2
-defaults write com.apple.dock wvous-br-modifier -int 0
+# defaults write com.apple.dock wvous-br-corner -int 2
+# defaults write com.apple.dock wvous-br-modifier -int 0
 # Top right screen corner → Put display to sleep
-defaults write com.apple.dock wvous-tr-corner -int 10
-defaults write com.apple.dock wvous-tr-modifier -int 0
+# defaults write com.apple.dock wvous-tr-corner -int 10
+# defaults write com.apple.dock wvous-tr-modifier -int 0
 # Bottom left screen corner → Desktop
-defaults write com.apple.dock wvous-bl-corner -int 4
-defaults write com.apple.dock wvous-bl-modifier -int 0
+# defaults write com.apple.dock wvous-bl-corner -int 4
+# defaults write com.apple.dock wvous-bl-modifier -int 0
 
 ###############################################################################
 # Safari & WebKit                                                             #
